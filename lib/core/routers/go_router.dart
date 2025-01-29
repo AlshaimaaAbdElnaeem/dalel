@@ -1,4 +1,5 @@
 import 'package:dalel/core/routers/router_constant.dart';
+import 'package:dalel/features/auth/presentation/views/sin_up_view.dart';
 import 'package:dalel/features/onboarding/presentation/view/on_boarding_view.dart';
 import 'package:go_router/go_router.dart';
 
@@ -12,5 +13,6 @@ final GoRouter goRouter = GoRouter(routes: [
   GoRoute(
     path: onBoardingView,
     builder: (context, state) => const OnBoardingView(),
-  )
+  ),
+  GoRoute(path: sinUpView , builder: (context, state) => SinUpView(),)
 ]);
