@@ -38,6 +38,7 @@ dependencies:
   go_router: ^14.6.3
   flutter_screenutil: ^5.9.3
   google_fonts: ^6.2.1
+  smooth_page_indicator: ^1.2.0+3
 
 dev_dependencies:
   flutter_test:
@@ -81,6 +82,9 @@ flutter:
     - family: Pacifico
       fonts:
         - asset: assets\fonts\Pacifico-Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

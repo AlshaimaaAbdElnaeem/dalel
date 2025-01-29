@@ -20,6 +20,7 @@ class Dalel extends StatelessWidget {
         return MaterialApp.router(
           theme: ThemeData(
             primaryColor: AppColors.offWhite,
+            fontFamily: "Poppins",
           ),
           debugShowCheckedModeBanner: false,
           routerConfig: goRouter,

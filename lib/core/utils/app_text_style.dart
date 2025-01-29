@@ -11,11 +11,13 @@ abstract class AppTextStyle {
   );
   static final textStyle24 = TextStyle(
     fontSize: 24.sp,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.bold,
+    color: AppColors.black,
   );
   static final textStyle16 = TextStyle(
     fontSize: 16.sp,
     fontWeight: FontWeight.w300,
+    color: AppColors.black,
   );
   static final textStyle18 = TextStyle(
     fontSize: 18.sp,

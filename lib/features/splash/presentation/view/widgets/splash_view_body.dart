@@ -35,7 +35,7 @@ class _SplashViewBodyState extends State<SplashViewBody> {
 
  Future<void> delayed() {
     return Future.delayed(Duration(seconds: 3), () {
-    customNavigtion(context,onBoardingView);
+    customReplacementNavigtion(context,onBoardingView);
   });
   }
 
